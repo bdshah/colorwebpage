@@ -1,0 +1,83 @@
+div{
+    margin: 2rem;
+    padding: 2rem;
+}
+*::after,
+*::before{
+    /*pseudo elememnts*/
+    box-sizing: inherit;
+}
+html{
+    font-size: 16px;
+    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    line-height: 1.5;
+}
+header{
+    padding:2rem 2rem 10rem 2rem;
+    background-image: url(../img/toronto-beauty-clouds-skyline-935474.jpeg);
+    border-image-width: 200px;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+}
+header > h1{
+    padding: 2rem 2rem 1rem 3rem;
+    text-align: left;
+    color: red;
+    text-shadow: 2rem 2rem 1rem 1rem white;
+}
+
+nav{
+    width: 110srem;
+    height: 2.5rem;
+    background-color: blue; 
+    border-bottom: solid;
+    border-bottom-width:1rem;
+}
+nav > a{
+   
+    padding-left: 5rem;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+
+}
+main{
+    padding:1rem 2rem;
+}
+main > h3{
+    color: deepskyblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+main > p{
+    font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+main > h4{
+    color: deepskyblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+ul{
+    padding-left: 3.5rem;
+    padding-right: 1.5rem;
+}
+ul > li{
+    
+    padding-left: 1rem;
+}
+
+section{
+    padding:1rem 2rem;
+}
+aside{
+    padding:1rem 2rem;
+}
+footer{
+    padding:1rem 2rem;
+}
